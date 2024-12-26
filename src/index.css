@@ -1,5 +1,6 @@
 .App {
   font-family: "Comic Sans ms";
+  color: #5a3c2e;
 }
 .todolist-heading {
   padding: 1rem;
@@ -40,7 +41,10 @@ h1 {
   padding: 2rem 4rem;
 }
 
-.todolist ul li::marker {
-  color: #7950f2;
-  content: "✔";
+.todolist ul li {
+  list-style: none;
+}
+span {
+  padding: 2rem;
+  color: #8950f2;
 }

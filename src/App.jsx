@@ -43,5 +43,5 @@ function Todolist() {
 }
 
 function List({ item }) {
-  return <li>{item}</li>;
+  return <li><span>✔</span>{item}</li>;
 }
