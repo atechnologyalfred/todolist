@@ -31,7 +31,7 @@ function Todolist() {
           value={state}
           onChange={handleChange}
         />
-        <button type="submit">Submit</button>
+        <button type="submit">+</button>
       </div>
       <ul>
         {change.map((item, index) => (
