@@ -49,3 +49,8 @@ span {
   padding: 2rem;
   color: #8950f2;
 }
+
+.delete {
+  color: red;
+  cursor:pointer;
+}
